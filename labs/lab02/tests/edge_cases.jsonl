@@ -1,0 +1,20 @@
+{"id":1,"raw_text":"м. Львів вул. Шевченка 10.","expected_behavior":"no split after abbreviations"}
+{"id":2,"raw_text":"Деталі https://example.com","expected_behavior":"URL masked"}
+{"id":3,"raw_text":"тел. +380671234567","expected_behavior":"phone masked"}
+{"id":4,"raw_text":"Версія 1.2.3","expected_behavior":"not split"}
+{"id":5,"raw_text":"Написати на test@email.com","expected_behavior":"email masked"}
+{"id":6,"raw_text":"Ціна 120000 грн.","expected_behavior":"numbers preserved"}
+{"id":7,"raw_text":"ТОВ «Буд-Сервіс»","expected_behavior":"quotes normalized"}
+{"id":8,"raw_text":"ремонт — реконструкція","expected_behavior":"dash normalized"}
+{"id":9,"raw_text":"м. Київ. Поставка обладнання.","expected_behavior":"correct sentence split"}
+{"id":10,"raw_text":"т.д. роботи","expected_behavior":"not split"}
+{"id":11,"raw_text":"http://site.ua/page","expected_behavior":"URL masked"}
+{"id":12,"raw_text":"email: info@site.ua","expected_behavior":"email masked"}
+{"id":13,"raw_text":"телефон (067)1234567","expected_behavior":"phone masked"}
+{"id":14,"raw_text":"   багато   пробілів ","expected_behavior":"trim spaces"}
+{"id":15,"raw_text":"«лапки»","expected_behavior":"normalized quotes"}
+{"id":16,"raw_text":"– різні — тире","expected_behavior":"normalized dash"}
+{"id":17,"raw_text":"р. 2024","expected_behavior":"not split"}
+{"id":18,"raw_text":"м.Одеса","expected_behavior":"keep token"}
+{"id":19,"raw_text":"site.ua","expected_behavior":"unchanged"}
+{"id":20,"raw_text":"Закупівля серверного обладнання.","expected_behavior":"no damage"}
