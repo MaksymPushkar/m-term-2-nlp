@@ -1,0 +1,20 @@
+{"id":1,"raw_text":"100%","field_type":"AMOUNT","expected_behavior":"not amount"}
+{"id":2,"raw_text":"2024","field_type":"DATE","expected_behavior":"not date"}
+{"id":3,"raw_text":"номер 123","field_type":"PHONE","expected_behavior":"not phone"}
+{"id":4,"raw_text":"ціна 10%","field_type":"AMOUNT","expected_behavior":"not amount"}
+{"id":5,"raw_text":"тел 067123","field_type":"PHONE","expected_behavior":"not phone"}
+{"id":6,"raw_text":"12.05.2024","field_type":"DATE","expected_behavior":"valid date"}
+{"id":7,"raw_text":"31/12/2024","field_type":"DATE","expected_behavior":"valid date"}
+{"id":8,"raw_text":"5000 грн","field_type":"AMOUNT","expected_behavior":"valid amount"}
+{"id":9,"raw_text":"100 USD","field_type":"AMOUNT","expected_behavior":"valid amount"}
+{"id":10,"raw_text":"+380671234567","field_type":"PHONE","expected_behavior":"valid phone"}
+{"id":11,"raw_text":"0671234567","field_type":"PHONE","expected_behavior":"valid phone"}
+{"id":12,"raw_text":"200€","field_type":"AMOUNT","expected_behavior":"valid amount"}
+{"id":13,"raw_text":"1.5.2022","field_type":"DATE","expected_behavior":"valid date"}
+{"id":14,"raw_text":"32.01.2024","field_type":"DATE","expected_behavior":"invalid date"}
+{"id":15,"raw_text":"0.5 USD","field_type":"AMOUNT","expected_behavior":"valid amount"}
+{"id":16,"raw_text":"50$","field_type":"AMOUNT","expected_behavior":"valid amount"}
+{"id":17,"raw_text":"телефон: 0501234567","field_type":"PHONE","expected_behavior":"valid phone"}
+{"id":18,"raw_text":"дата 2023","field_type":"DATE","expected_behavior":"not date"}
+{"id":19,"raw_text":"вартість 1000","field_type":"AMOUNT","expected_behavior":"not amount"}
+{"id":20,"raw_text":"abc123","field_type":"PHONE","expected_behavior":"not phone"}

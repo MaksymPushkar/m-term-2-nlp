@@ -1,0 +1,5 @@
+{"text_id":1,"text":"Договір укладено 12.05.2024 на суму 5000 грн","field_type":"DATE","span_text":"12.05.2024","start_char":17,"end_char":27,"normalized_value":"2024-05-12"}
+{"text_id":1,"text":"Договір укладено 12.05.2024 на суму 5000 грн","field_type":"AMOUNT","span_text":"5000 грн","start_char":36,"end_char":44,"normalized_value":"5000 UAH"}
+{"text_id":2,"text":"Телефон постачальника +380671234567","field_type":"PHONE","span_text":"+380671234567","start_char":23,"end_char":36,"normalized_value":"+380671234567"}
+{"text_id":3,"text":"Оплата 100 USD здійснена 01.03.2023","field_type":"AMOUNT","span_text":"100 USD","start_char":7,"end_char":14,"normalized_value":"100 USD"}
+{"text_id":3,"text":"Оплата 100 USD здійснена 01.03.2023","field_type":"DATE","span_text":"01.03.2023","start_char":26,"end_char":36,"normalized_value":"2023-03-01"}
