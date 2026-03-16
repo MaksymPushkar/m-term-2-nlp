@@ -1,0 +1,10 @@
+{
+  "strategy": "stratified_random_split",
+  "seed": 42,
+  "train_ratio": 0.8,
+  "val_ratio": 0.1,
+  "test_ratio": 0.1,
+  "columns_used": ["label"],
+  "generated": "lab5",
+  "notes": "Deterministic split with fixed seed"
+}
