@@ -213,11 +213,7 @@ project/
 │
 ├── prozorro_classic_nlp.ipynb
 ├── prozorro_classic_nlp_dataset.csv
-├── README.md
-│
-└── outputs/
-    ├── confusion_matrix.png
-    └── evaluation_results.txt
+└── README.md
 ```
 
 ---
